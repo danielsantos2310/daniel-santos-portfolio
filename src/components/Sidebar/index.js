@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope, faUser, faHome, faMoneyBill, faFile, faListCheck } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faUser, faHome, faMoneyBill, faFile, faListCheck, faServer } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import './index.scss';
 
@@ -27,6 +27,17 @@ const Sidebar = () => (
       <li>
         <a target="_blank" rel='noreferrer' href='https://github.com/danielsantos2310'>
           <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
+        </a>
+      </li>
+      <li>
+        <a
+          target="_blank"
+          rel='noreferrer'
+          href='https://danielsantos2310.github.io/Ireland-Data-Center-Energy-research/'
+          title='Ireland Data Centre Energy Analytics'
+          aria-label='Open Project 01: Ireland Data Centre Energy Analytics'
+        >
+          <FontAwesomeIcon icon={faServer} color="#4d4d4e" />
         </a>
       </li>
       <li>
